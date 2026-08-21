@@ -1,0 +1,26 @@
+// 1. functions 先
+@import "bootstrap/scss/functions";
+
+// 2. 自訂變數覆寫放這裡（在 bootstrap variables 之前）
+@import "./variables";
+@import "./fonts";
+
+// 3. bootstrap 原本的 variables、mixins、root
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/variables-dark";
+@import "bootstrap/scss/maps";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+
+// 4. 其餘視需要 import
+@import "bootstrap/scss/utilities";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/helpers";
+@import "bootstrap/scss/buttons";
+
+// 5. utilities API 最後
+@import "bootstrap/scss/utilities/api";

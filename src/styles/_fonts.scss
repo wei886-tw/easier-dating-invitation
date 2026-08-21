@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "noto-sans-tc";
+  src: url('/fonts/noto-sans-tc-400.woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "noto-sans-tc";
+  src: url('/fonts/noto-sans-tc-500.woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "noto-sans-tc";
+  src: url('/fonts/noto-sans-tc-600.woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "noto-serif-tc";
+  src: url('/fonts/noto-serif-tc-600.woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "noto-serif-tc";
+  src: url('/fonts/noto-serif-tc-700.woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "playfair-display";
+  src: url('/fonts/playfair-display-600.woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "playfair-display";
+  src: url('/fonts/playfair-display-700.woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+.noto-serif-tc {
+  font-family: "noto-serif-tc", serif;
+}
